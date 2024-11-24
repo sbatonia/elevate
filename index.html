@@ -12,23 +12,27 @@
 <body>
 
     <div class="navbar">
-        <img src="imgs/logo4.png" alt="" height="70px">
-        <a href="">SERVICES</a>
-        <a href="">PRODUCTS</a>
-        <a href="">RESOURCES</a>
-        <a href="">ABOUT US</a>
-        <a href="">CONTACT US</a>
+        <img src="/imgs/logo4.png" alt="Logo" height="70px">
+        <div class="menu-button" onclick="toggleMenu()">☰</div> <!-- Hamburger Menu -->
+        <div class="menu-list">
+            <a href="">SERVICES</a>
+            <a href="">PRODUCTS</a>
+            <a href="">RESOURCES</a>
+            <a href="">ABOUT US</a>
+            <a href="">CONTACT US</a>
+        </div>
     </div>
+    
 
     <div class="coverImg">
-        <img src="imgs/logo4.png" alt="" height="150px">
+        <img src="/imgs/logo4.png" alt="" height="150px">
         <a href="">CONTACT US</a>
         <a href="">GET A QUOTE</a>
     </div>
 
     <div class="border1">
         <h1>PROUDLY MADE IN THE </h1>
-        <img src="imgs/usaFlag.png" alt="" height="50px">
+        <img src="/imgs/usaFlag.png" alt="" height="50px">
     </div>
     
 
@@ -42,13 +46,13 @@
             </p>
         </div>
         <div class="sec1_art">
-            <img src="imgs/house1.jpg" alt="" height="300px">
+            <img src="/imgs/house1.jpg" alt="" height="300px">
         </div>
     </div>
 
     <div class="sec2">
         <div class="sec2_art">
-            <img src="imgs/house2.jpg" alt="" height="300px">
+            <img src="/imgs/house2.jpg" alt="" height="300px">
         </div>
         <div class="sec2_txt">
             <h1>Complete Landscaping Solutions</h1>
@@ -68,13 +72,13 @@
             <h2>Add a touch of sophistication with specialty outdoor lights and creative paint finishes.</h2>
         </div>
         <div class="sec3_art">
-            <img src="imgs/house3.jpg" alt="" height="300px">
+            <img src="/imgs/house3.jpg" alt="" height="300px">
         </div>
     </div>
 
     <div class="sec4">
         <div class="sec4_art">
-            <img src="imgs/house1.jpg" alt="" height="300px">
+            <img src="/imgs/house1.jpg" alt="" height="300px">
         </div>
         <div class="sec4_txt">
             <h1>Pool & Garden Enhancements</h1>
@@ -91,13 +95,13 @@
             aspect of your project with care and professionalism.</p>
         </div>
         <div class="sec5_art">
-            <img src="imgs/house2.jpg" alt="" height="300px">
+            <img src="/imgs/house2.jpg" alt="" height="300px">
         </div>
     </div>
 
     <div class="sec6">
         <div class="sec6_art">
-            <img src="imgs/house3.jpg" alt="" height="300px">
+            <img src="/imgs/house3.jpg" alt="" height="300px">
         </div>
         <div class="sec6_txt">
             <h1>Why Choose [Company Name]?</h1>
@@ -113,6 +117,19 @@
             <h2>Ready to transform your outdoor space? Contact us today to schedule your consultation and bring your vision to life!        </h2>
         </div>
     </div>
+
+    <script>
+        function toggleMenu() {
+            const menuList = document.querySelector('.menu-list');
+            const isMobile = window.innerWidth <= 768; // Ensure it's mobile
+    
+            if (isMobile) {
+                menuList.style.display = menuList.style.display === 'flex' ? 'none' : 'flex';
+            }
+        }
+    </script>
+    
+    
 
 </body>
 </html>

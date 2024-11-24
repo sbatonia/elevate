@@ -180,6 +180,10 @@ body {
         padding: 10px 0; /* Reduce padding for smaller screens */
     }
 
+    .sec1 img, .sec2 img, .sec3 img, .sec4 img, .sec5 img, .sec6 img, .sec7 img {
+        width: 70%;
+    }
+    
     .menu-button {
         display: block; /* Show menu button on mobile */
         font-size: 24px;

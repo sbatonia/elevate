@@ -27,7 +27,7 @@ body {
 }
 
 .coverImg {
-    background-image: url(/imgs/coverPic.jpg);
+    background-image: url(imgs/coverPic.jpg);
     background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay with 50% opacity */
     background-blend-mode: darken; /* Blends the color with the image */
     width: 100%;

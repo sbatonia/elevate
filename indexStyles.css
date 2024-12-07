@@ -7,21 +7,24 @@ body {
     flex-direction: column;
     width: 100%;
     font-family: "Lexend", sans-serif;
-    overflow-x: hidden; /* Hide horizontal overflow */
+    
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+* {
+    outline: 1px solid red;
+}
+
 .about-us {
     background-color: #0B6E4F;
-    width: 99%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap; /* Allow content to wrap for smaller screens */
     align-items: center;
     justify-content: center; /* Center-align items for smaller screens */
-    padding: 20px; /* Add padding for spacing */
 }
 
 .about-us-info {
@@ -329,7 +332,8 @@ html {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 40px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 10px;  /* space between reviews */
     overflow: hidden;
     height: 200px;
@@ -429,26 +433,27 @@ html {
 
 /* Footer Styles */
 .footer {
+    width: 100%;
     background-color: #d3d3d3; /* Dark green background */
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
     text-align: center;
-    width: 100%;
 }
 
 /* Logo styling */
 .footer-logo {
     width: 150px;
     margin-bottom: 20px;
+    
 }
 
 /* Address Section */
 .footer-address {
     margin-bottom: 20px;
+    
 }
 
 /* Services Section */
@@ -506,16 +511,10 @@ html {
     color: #6BBF59; /* Green hover effect */
 }
 
-/* Social Media Icons */
-.footer .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
 
 .footer .social-icons a {
-    font-size: 24px;
-    color: white;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
     transition: color 0.3s ease;
 }
 
@@ -601,7 +600,8 @@ form {
 /* Title Section */
 .title-section {
     width: 100%;
-    padding: 40px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #f9f9f9;
     text-align: center;
   }

@@ -19,8 +19,8 @@ html {
 }
 
 .about-us {
-    background-color: #0B6E4F;
     width: 100%;
+    background-color: #0B6E4F;
     display: flex;
     flex-wrap: wrap; /* Allow content to wrap for smaller screens */
     align-items: center;
@@ -70,6 +70,11 @@ html {
     .about-us {
         flex-direction: column; /* Stack items vertically */
         padding: 20px 10px; /* Add padding for smaller screens */
+        width: 90%;
+    }
+
+    .footer {
+        width: 85%;
     }
 
     .about-us-info {
@@ -447,7 +452,7 @@ html {
 .footer-logo {
     width: 150px;
     margin-bottom: 20px;
-    
+    margin-top: 25px;
 }
 
 /* Address Section */

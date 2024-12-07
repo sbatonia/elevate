@@ -14,10 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    outline: 1px solid black;
-}
-
 .about-us {
     width: 100%;
     background-color: #0B6E4F;
